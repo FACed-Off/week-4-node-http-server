@@ -11,10 +11,12 @@ const server = http.createServer((request, response) => {
   } else if (url === "/goodbye") {
     response.writeHead(200, { "content-type": "text/html" });
     response.end("<h1>Goodbye</h1>");
-    //Is there a reason the ERR_EMPTY_RESPONSE ?
   } else if (url === "/hello") {
     response.writeHead(302, { location: "/" });
     response.end();
+  } else {
+    response.writeHead(404, { "content-type": "text/html" });
+    response.end("<h1>Not found</h1>");
   }
 });
 
