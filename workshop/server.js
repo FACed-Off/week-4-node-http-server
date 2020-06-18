@@ -1,6 +1,7 @@
 const http = require("http");
 const PORT = 3000;
 const homeHandler = require("./handlers/home");
+const goodbyeHandler = require("./handlers/goodbye");
 
 //Why does the network tab not show any details of any requests?
 const server = http.createServer((request, response) => {
@@ -9,8 +10,7 @@ const server = http.createServer((request, response) => {
   if (url === "/") {
     homeHandler(request, response);
   } else if (url === "/goodbye") {
-    response.writeHead(200, { "content-type": "text/html" });
-    response.end("<h1>Goodbye</h1>");
+    goodbyeHandler(request, response);
   } else if (url === "/hello") {
     response.writeHead(302, { location: "/" });
     response.end();
