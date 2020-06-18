@@ -3,6 +3,7 @@ const PORT = 3000;
 const homeHandler = require("./handlers/home");
 const goodbyeHandler = require("./handlers/goodbye");
 const helloHandler = require("./handlers/hello");
+const missingHandler = require("./handlers/missing");
 
 //Why does the network tab not show any details of any requests?
 const server = http.createServer((request, response) => {
@@ -15,8 +16,7 @@ const server = http.createServer((request, response) => {
   } else if (url === "/hello") {
     helloHandler(request, response);
   } else {
-    response.writeHead(404, { "content-type": "text/html" });
-    response.end("<h1>Not found</h1>");
+    missingHandler(request, response);
   }
 });
 
