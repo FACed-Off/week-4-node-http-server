@@ -1,0 +1,24 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "Node is most often used to create HTTP servers for the web. It has some nice built-in tools that help us do this.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon workshop/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACed-Off/node-http-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACed-Off/node-http-server/issues"
+  },
+  "homepage": "https://github.com/FACed-Off/node-http-server#readme"
+}
