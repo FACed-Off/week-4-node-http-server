@@ -25,9 +25,13 @@ const server = http.createServer();
 
 >We then call our createServer method from the http module which evaluates to a new server object, this server object is then assigned to the constant "server"
 
+## HTTP Servers
+
+A HTTP server is software that understands URLs and the HTTP protocol for viewing webpages in the browser
+
 ## What is the server object?
 
-The server object makes your computer act like a HTTP server, a HTTP server is software that understands URLs and the HTTP protocol for viewing webpages in the browser
+The server object makes your computer act like a HTTP server.
 
 We can invoke the servers' methods in the same way as we would invoke the methods of any other javascript object, through dot notation.
 
