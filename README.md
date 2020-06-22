@@ -7,6 +7,7 @@ Node is most often used to create HTTP servers for the web. It has some nice bui
 1. Clone this repo
 1. Open `workshop/server.js` in your editor
 1. Run `node workshop/server.js` in your terminal to execute your code. The server will keep running until you tell it to stop
+>node allows us to run javascript using as a computer process instead of within the browser, allowing access to the operating system and file system
 1. When you make changes you need to stop your Node process by running `ctrl-c` in your terminal, then re-run `node workshop/server.js`
 
 Follow along with each example in your own editor.
