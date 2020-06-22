@@ -25,6 +25,10 @@ const server = http.createServer();
 
 >We then call our createServer method from the http module which evaluates to a new server object, this server object is then assigned to the constant "server"
 
+## What is the server object?
+
+The server object makes your computer act like a HTTP server, a HTTP server is software that understands URLs and the HTTP protocol
+
 ## Handling requests
 
 Our server currently does nothing. We need to pass a "handler function" to `createServer`. This function will be run whenever the server receives a request. This is similar to `addEventListener` in the browser.
