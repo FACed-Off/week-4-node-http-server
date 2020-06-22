@@ -27,7 +27,7 @@ const server = http.createServer();
 
 ## What is the server object?
 
-The server object makes your computer act like a HTTP server, a HTTP server is software that understands URLs and the HTTP protocol
+The server object makes your computer act like a HTTP server, a HTTP server is software that understands URLs and the HTTP protocol for viewing webpages in the browser
 
 We can invoke the servers' methods in the same way as we would invoke the methods of any other javascript object, through dot notation.
 
