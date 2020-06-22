@@ -29,6 +29,10 @@ const server = http.createServer();
 
 A HTTP server is software that understands URLs and the HTTP protocol for viewing webpages in the browser
 
+A HTTP request is when the browser requests files from the HTTP server using HTTP protocol. When we call the server object that makes our computer act as a HTTP server, this request refers to the files on our computer itself
+
+A HTTP response refers to the files we send back via the HTTP server (that we currently have setup as our computer)
+
 ## What is the server object?
 
 The server object makes your computer act like a HTTP server.
