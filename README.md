@@ -22,6 +22,7 @@ const http = require("http");
 const server = http.createServer();
 ```
 >The require keyword allows us to use the node http module to enable our computer to act as a server
+>We then call our createServer method from the http module which evaluates to a new server object, this server object is then assigned to the constant "server"
 
 ## Handling requests
 
