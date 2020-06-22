@@ -49,6 +49,8 @@ The methods available are [here](https://www.w3schools.com/nodejs/obj_http_serve
 
 Our server currently does nothing. We need to pass a "handler function" to `createServer`. This function will be run whenever the server receives a request. This is similar to `addEventListener` in the browser.
 
+The `createServer` method takes two parameters as seen [here](https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener), we can ignore the options parameter for now and focus on the requestListener function, the requestListener function is our handler function and the documentation for that can be seen [here](https://www.w3schools.com/nodejs/func_http_requestlistener.asp)
+
 The handler will be passed two arguments: an object representing the incoming request, and an object representing the response that will eventually be sent.
 
 ```js
