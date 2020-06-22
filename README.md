@@ -63,6 +63,8 @@ const server = http.createServer((request, response) => {
 
 We can use the `end` method on the response object to tell Node to send the response. Whatever we pass here will be sent as the response body.
 
+The `end` method is must be called for each response, even if empty
+
 ## Starting the server
 
 Our Node program has a functioning server, but that server isn't currently listening for requests. We need to tell it to do so, and what port it should listen on:
