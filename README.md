@@ -29,6 +29,10 @@ const server = http.createServer();
 
 The server object makes your computer act like a HTTP server, a HTTP server is software that understands URLs and the HTTP protocol
 
+We can invoke the servers' methods in the same way as we would invoke the methods of any other javascript object, through dot notation.
+
+>Reminder: a method is a function definition stored as a property within an object
+
 ## Handling requests
 
 Our server currently does nothing. We need to pass a "handler function" to `createServer`. This function will be run whenever the server receives a request. This is similar to `addEventListener` in the browser.
