@@ -25,6 +25,8 @@ const server = http.createServer();
 
 >We then call our createServer method from the http module which evaluates to a new server object, this server object is then assigned to the constant "server"
 
+>We can then call server object methods from our server constant, these methods are [here](https://www.w3schools.com/nodejs/obj_http_server.asp)
+
 ## HTTP Servers
 
 A HTTP server is software that understands URLs and the HTTP protocol for viewing webpages in the browser
